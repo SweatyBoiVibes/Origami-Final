@@ -1,0 +1,45 @@
+.head{
+    display:flex;
+    justify-content:center;
+    color:red;
+}
+
+.row1{
+    display:flex;
+    justify-content:center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.white a{
+    color:white;
+}
+
+.row2{
+    display:flex;
+    justify-content:center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+html, body{
+    background-color: rgba(5, 42, 92, 0.733);
+}
+
+.head:hover{
+   font-size:30px;
+   transition:2s;
+   color:crimson;
+   font-family:"ariel"
+}
+
+.row1 img:hover{
+    transform:rotate(359deg);
+    transition:5s
+}
+
+.row2 img:hover{
+    transform:rotate(-359deg);
+    transition:5s
+}
+
